@@ -24,7 +24,7 @@ Os scripts estão em `scripts/` (copiar tudo para um diretório de trabalho; `tb
 - Pacote premium de 30 dias já comprado (EXPup 30%, Awell, Fênix, Presa, Drena Almas, Redução de Mana/RES, Olho Mágico): **não comprar Awell/Fênix/EXPup**. Tempo (moeda) só para pergaminho/emergência.
 - Ler a mochila pela **dica (tooltip) célula a célula**, com baú/Leilão fechados; imagem só para ouro/peso. Pergaminhos ficam na **página 2** (x≈394, y=648..714 e 758).
 - Anotar todo erro com `./anota.sh "título" "o que errei" "regra"` sem a usuária pedir. Relatar **na hora** problema urgente (morte, queda, grupo desfeito, XP parado), sem esperar o alarme.
-- **Todo relatório informa o tempo até o próximo nível:** `(100% − % atual) × custo do nível / mi/h`. Custo medido: nível 71 ≈ 80,8 mi (EXP 715,5 → 796,1 mi; tela do personagem, tecla C). Ranking: Mais > Ranking.
+- **Todo relatório informa o tempo até o próximo nível E a hora aproximada (relógio de Brasília) em que sobe de nível (agora + tempo; somar ~10 min por ida à cidade):** `(100% − % atual) × custo do nível / mi/h`. Custo medido: nível 71 ≈ 80,8 mi (EXP 715,5 → 796,1 mi; tela do personagem, tecla C). Ranking: Mais > Ranking.
 
 ## Rotina de vigia (alarme a cada 10 min)
 1. `./evid.sh` (registra boot/monitor/keepalive em `quedas.log`); conferir 1 monitor e ≥1 keepalive.
