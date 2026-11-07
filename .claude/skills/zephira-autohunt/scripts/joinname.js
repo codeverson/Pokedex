@@ -6,7 +6,7 @@ module.exports = async (p, names) => {
   const blur = () => p.evaluate(() => { const a = document.activeElement; a && a.blur && a.blur(); });
   const hasSearch = () => p.evaluate(() => !!document.querySelector('input[placeholder*="Buscar"]') && [...document.querySelectorAll('*')].some(e => e.offsetParent && e.children.length === 0 && /^Procurar Grupo$/.test((e.innerText || '').trim())));
   if (!(await hasSearch())) {
-    await p.mouse.click(900, 450); await W(400); await blur();
+    
     const soc = await p.evaluate(() => [...document.querySelectorAll('*')].some(e => e.offsetParent && e.children.length === 0 && /^Social$/.test((e.innerText || '').trim())));
     if (!soc) { await p.keyboard.press('d'); await W(1800); }
     await p.mouse.click(494, 180); await W(900); await p.mouse.click(590, 623); await W(2500);
@@ -29,7 +29,7 @@ module.exports = async (p, names) => {
     await p.mouse.click(pos[0], pos[1]); await W(2500);
     if (await p.evaluate(() => document.body.innerText.includes('Trocar de servidor?'))) { await p.mouse.click(727, 451); await W(14000); }
     await W(1500);
-    await p.mouse.click(865, 133); await W(800); await p.mouse.click(900, 450); await W(400); await blur();
+    await p.mouse.click(865, 133); await W(800); 
     await p.keyboard.press('d'); await W(1800); await p.mouse.click(494, 180); await W(1200);
     const t = await p.evaluate(() => document.body.innerText);
     const n = (t.match(/\d de \d no grupo/) || [''])[0];
