@@ -106,7 +106,7 @@ async function grayness(p) {
     if (s.login) { log('EXIT disconnected'); process.exit(10); }
     if (sat < 12) { log('EXIT dead?'); process.exit(11); }
     if (s.party.length < 2 && !process.env.SOLO) { log('EXIT left group'); process.exit(12); }
-    if (lv && +lv >= 73) { log('EXIT level 73'); process.exit(13); }
+    if (lv && +lv >= 74) { log("EXIT level 74"); process.exit(13); }
     if (hp >= 0 && hp < 60) { log('EXIT low hp potions'); process.exit(14); }
     if (xph !== null && mins >= 15 && xph < MIN_XPH) { log('aviso: xp/h abaixo da meta ' + xph + ' (trocar de grupo se persistir)'); }
     if (!s.hunting) {
