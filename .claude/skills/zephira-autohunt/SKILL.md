@@ -43,6 +43,9 @@ Códigos de saída do `monitor.js`: 10 login, 12 saiu do grupo, 13 lv73, 14 poç
 - Entrar em grupo: `node run.js "return await require('./joinname.js')(p,['NomeA','NomeB'])"` (acha o card pelo nome; a lista reordena sozinha - nunca clicar por coordenada). "Trocar para X" pede confirmar (727,451). "Em combate PK: aguarde" bloqueia entrar/Ir ao líder/Core: pausar a Auto-caça, parar o monitor e esperar.
 - Ficar >5 min na cidade tira do grupo (reentrar pelo nome).
 
+## Ao subir para o lv 75 (ordem da usuária, 09/11)
+Testar os DOIS mapas e ficar no melhor XP/h: (A) Torre Sem Fim 4º andar canal Nv 75–80; (B) Templo Maldito 2 (abre no lv 75). Trocar sempre pela sequência segura (Core → cidade → sair do grupo → entrar pelo nome → Ir ao líder → Auto-caça → PK → monitor), medir ≥20 min em cada um com grupo cheio e relatar os dois números.
+
 ## Ida à cidade (repor) - planejar <5 min
 `town.js` (Namy: vender loot + comprar Médias de HP; pode falhar em achar a Namy no Mapa Guia, fechar Mapa Guia 806,257 e Mapa do Mundo 1092,101). Mana: Leilão (Mais 1056,60 > Leilão) > Comprar > filtro > COMPRAR > PAGAR EM OURO > COMPRAR (722,468) > Yes; item vai ao Distribuidor (Mais > Distribuidor > Receber). Média de Mana ≈ 194 ouro/un; MP máx 236. Ferreiro Gus: Consertar tudo (526,347). Não clicar no chão em cidade (abre NPC/teleporte pago). Cristais: `leilao_sell.js`/`leilao_cristal.js`.
 
