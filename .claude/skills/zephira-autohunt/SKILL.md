@@ -64,3 +64,15 @@ Dizer "estoque ok" sem contar; clicar a Auto-caça às cegas (é toggle); script
 
 ## Atualização do jogo (ordem permanente da usuária, 12/11)
 Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto superior esquerdo): SEMPRE atualizar, sem perguntar. Clicar no ícone (17,16) > diálogo > ATUALIZAR (719,441). Recarrega ~20-30 s e volta sozinho ao personagem/grupo com Auto-caça ligada e PK mantido; conferir tooltip do PK (1065,108) e relançar o monitor. Fazer logo no próximo ciclo, sem esperar alarme.
+
+## Protocolo do Leilão - comprar poções (ordem da usuária, 13/11)
+**Quando:** em TODA reposição de poções de HP (perto de 100 no painel "Restam HP"), olhar o Leilão ANTES de planejar a ida à cidade. O Leilão é global (vendedores de todos os servidores) e compra de qualquer lugar, então se der para repor por ele NÃO sair do grupo (evita ~5 min parado, ~0,5 mi de XP, e o risco de PK/queda).
+**Referência de preço:** Namy = 140 ouro/poção (250 por 35.000). Leilão em 13/11: 56–75 ouro/poção para lotes de 150–800 (TioFS/Apolo 467 por 25.999; Adamsoy/Atena 350 por 20.000; Ruaneloy/Poseidon 146 por 11.000). O anúncio mostra lote e preço TOTAL: sempre dividir (preço ÷ quantidade).
+**Passos:**
+1. Parar o monitor (`pkill -f 'node monitor.js'`, exit 144 é esperado), Mais (1056,60) > Leilão (1059,132). FPS cai a 2–5 com a janela aberta: ser rápido.
+2. Aba Comprar: nome "Poção Media de HP" + Enter, moeda = Ouro (selects), ordem "Menor preço" (muda a lista inteira; o select pode recarregar: reselecionar). Ler as páginas com `scripts/leilao_pocoes.js` (copiar para o scratchpad; clica a seta › em 689,658 e lê os cards `.auc-listing`; ~14 páginas = 2 min) e calcular ouro/poção por lote em Python.
+3. Escolher o lote de MENOR ouro/poção com 250–500 unidades, e só se for < 100 ouro/poção; vendedor ≠ eu; conferir o preço total na imagem antes de clicar.
+4. Comprar: COMPRAR > PAGAR EM OURO > COMPRAR (722,468) > Yes. O item NÃO vai para a bolsa: Mais > Distribuidor > Receber. Contar depois pelo painel "Restam HP" e pelo ouro (comparar antes/depois).
+5. Fechar a janela (971,125) e o menu Mais (1056,60), reabrir/conferir o Social (D > Grupo) e o PK, relançar o monitor.
+**Regras:** gastar só poções de HP/mana; nunca comprar Awell/Fênix/EXPup nem itens que não sejam poção, nem gastar Coins/USDT (só ouro). Não pagar > 35.000 por lote de 250 (o preço da Namy). Se o Leilão não tiver lote melhor que 100 ouro/poção ou a compra falhar, cair para a rota da Namy (`town.js`). Primeira compra de teste: preferir um lote do mesmo servidor (Poseidon) e conferir que chega no Distribuidor; registrar o resultado em `references/licoes-erros.md`.
+**Estado:** 13/11 02:48 BRT, só consulta feita (sem compra); a usuária mandou registrar como protocolo, a compra segue o protocolo na próxima reposição ou quando ela disser "compra".
