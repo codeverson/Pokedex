@@ -110,3 +110,9 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - Compra de poção de HP (22:41 BRT): 794 por 50.000 (63/un) de WesleySafadao (Ares) no Leilão; Restam HP 73 → 866. Passos iguais ao protocolo acima; filtro do vendedor no campo "Nome do item ou vendedor" (placeholder contém "vendedor").
 - Zerou o PK sozinho: depois da reconexão/queda de grupo o Modo PK volta a "desligado". Sempre passar o mouse em 1065,108 e ligar de novo.
 - Saídas 12 do monitor (saiu do grupo): em 14/11 ocorreram 2 vezes (21:44 e 22:08) com lag/bônus Twitch bugado no servidor. Recuperar pelo Social > Procurar e FILTRAR pelo nome do líder antes de clicar ENTRAR (a lista reordena sozinha e já entrei no grupo errado).
+
+## Auto-caça continua ANTES de operar janelas (ordem da usuária, 14/11)
+- Ao abrir Distribuidor, Leilão, Loja de Tempo/Itens ou qualquer janela grande, a Auto-caça pausa e o personagem fica parado no campo (causa das mortes de 22:40, 22:59, 23:25, 02:27 e 04:11).
+- **Regra:** abrir a janela, **religar/continuar a Auto-caça (996,60, conferir "❚❚" ligada) ANTES de operar** (receber, comprar, anunciar), e só então fazer os cliques. Se a janela cobrir o botão, arrastar a janela pelo título, não fechar.
+- Depois de operar: fechar a janela, conferir que a Auto-caça segue ligada ("Ação" mudando) e PK ligado.
+- Mesmo assim, manter as operações curtas (~60 s).
