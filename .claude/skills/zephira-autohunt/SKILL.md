@@ -116,3 +116,9 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - **Regra:** abrir a janela, **religar/continuar a Auto-caça (996,60, conferir "❚❚" ligada) ANTES de operar** (receber, comprar, anunciar), e só então fazer os cliques. Se a janela cobrir o botão, arrastar a janela pelo título, não fechar.
 - Depois de operar: fechar a janela, conferir que a Auto-caça segue ligada ("Ação" mudando) e PK ligado.
 - Mesmo assim, manter as operações curtas (~60 s).
+
+## Templo Maldito 2 liberado no nível 75+ (14/11)
+- Haradur é nível 77: **Templo Maldito 2º Andar (monstros Nv.75-79, ex.: Ômicron)** está liberado. Ficou ~4 h em TM1 a 2-3 mi/h sem testar TM2, erro meu.
+- Lista de grupos de TM2: `node run.js "return await require('./gvaga.js')(p,'Templo Maldito 2')"`. Entrar: `joinname_tm2.js` (cópia de joinname.js com filtro 'Templo Maldito 2').
+- Sequência usada em 14/11: Core (findcore.js 'Core para Navisko', clique direito) → cidade → Sair do grupo → joinname_tm2 → Ir ao líder → Auto-caça (996,60) → PK → monitor. Trocar de servidor (Hermes→Atlas) funciona sem perder o personagem.
+- Sempre que o XP/h de TM1 ficar <3 mi/h, olhar TM2 primeiro.
