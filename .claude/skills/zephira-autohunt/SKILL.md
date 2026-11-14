@@ -133,3 +133,7 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - A partir de agora, pontos de status de novos níveis também vão em **Força** (ordem dela); relatar quantos foram.
 - O **ponto de habilidade (1)** continua guardado: não foi autorizado.
 - EXP do personagem (tela C): `EXP atual / Próximo nível` em milhões. Nível 78: de 1.677M até 1.897M → faltam ~220 mi para o 79 (custo real medido na tela).
+
+## Grupo bom: manter (ordem da usuária, 14/11 15:30)
+- Grupo do **Cruel** (Zeus, Templo Maldito 2, Lutador/Cavaleiro nível 80, ~7,3 mi/h) é "pt boa": **manter**, não trocar.
+- Na ida a Ricarten para repor poções (~15:50 BRT, ao chegar perto de 150), **NÃO sair do grupo**: Core, Namy (poções 250) e conserto no Gus, depois "Ir ao líder" (561,233 + 716,432) e religar a Auto-caça e conferir o PK. Só sair do grupo se ele se desfizer.
