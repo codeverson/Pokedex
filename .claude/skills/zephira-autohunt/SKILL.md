@@ -138,3 +138,9 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - Grupo do **Cruel** (Zeus, Templo Maldito 2, Lutador/Cavaleiro nível 80, ~7,3 mi/h) é "pt boa": **manter**, não trocar.
 - Na ida a Ricarten para repor poções (~15:50 BRT, ao chegar perto de 150), **NÃO sair do grupo**: Core, Namy (poções 250) e conserto no Gus, depois "Ir ao líder" (561,233 + 716,432) e religar a Auto-caça e conferir o PK. Só sair do grupo se ele se desfizer.
 - **Namy no Mapa Guia (14/11):** o `town.js` não acha a Namy porque o rótulo agora é "Mercearia, Namy" (o script procura "Namy —"). Fazer na mão: abrir o Mapa Guia (tecla M), mover/clicar em (576,460) = "Mercearia, Namy", "Ir até", esperar a Loja (~40 s), comprar poção Média de HP 250 (270,233), fechar a loja (563,169), tecla D > Grupo > "Ir ao líder" (561,233 + 716,432), ligar Auto-caca (996,60), conferir PK. A reposição de 14/11 15:50 gastou ~27 mil de ouro e levou ~11 min.
+
+## Terry (8 Horas): compra e uso (ordem da usuária, 14/11 16:25)
+- Ordem: "compre o terry, compre uns 5". Comprei 5x Terry (8 Horas) por 3.500 Tempo (700 cada; saldo 5.500 → 2.000). Tempo de jogo: conta só online e fora das cidades. Entrega no Distribuidor.
+- Receber 1 por vez: Distribuidor, RECEBER, diminuir a quantidade (− em 696,541) até 1, RECEBER (815,596). A Auto-caça usa o Terry sozinha ("Usando Terry(8H)"); não precisa clicar no item. Restam 4 no Distribuidor para as próximas 8 h cada (recebê-los só quando o anterior acabar).
+- Loja de Tempo: F9 > Tempo (640,92); o card do Terry fica no fim da lista: `scrollIntoView` no texto "Terry (8 Horas)" (a janela sobe ~18 px; COMPRAR em 603,228); "+" 592,401; COMPRAR 640,433; CONFIRMAR 718,448; Yes 690,376; Distribuidor 839,123.
+- EXPup 30%: ela já tinha ativado por conta própria (14/11 16:25).
