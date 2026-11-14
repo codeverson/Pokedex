@@ -93,3 +93,12 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - O prêmio vai para o Distribuidor se a bolsa estiver cheia ("Recompensa recebida! Parte dos itens foi para o Distribuidor"). Não ativar por cima da Terry de 8 h que já está ativa (não sei se soma ou se perde); ativar quando a de 8 h acabar, ou comparar antes. Terry 8 h comprada às ~17:00 BRT de 13/11 vale até ~01:00 BRT de 14/11.
 - Aproveitar a mesma abertura para conferir as outras tarefas do dia e semanais (Caçador de chefes, Coletor, Terror dos chefes, Coragem na Bellatra) e receber o que estiver pronto, sem gastar Tempo.
 - Fazer com o monitor parado e fechar a janela (971,125) depois; religar o monitor.
+
+## Força Devine, bolsa cheia e loja de Tempo (aprendido em 13/11 à noite)
+- Força Devine: item de caça da categoria "Forças" da loja de Tempo (F9 > Tempo > Premium > Forças, 355,456): Devine 150 Tempo, Murky 120 Tempo. Comprei 10 (1.500 Tempo) a pedido dela. O painel da Auto-caça passa a mostrar "Force: N usadas · restam M" e a Auto-caça usa sozinha (1 unidade durou mais de 45 min). DPS de 30 s do Haradur foi de ~290-400 para ~480-610 depois da Devine (quadro do grupo: de ~420-470 para ~500-1.100). O XP/h do grupo quase não mudou (~8,3-8,9 mi/h). Efeito exato do item não aparece em nenhum texto do jogo.
+- Compra para o Distribuidor ou pela loja só funciona com a bolsa na PÁGINA 2: a página 1 está cheia de anéis e colares e o jogo responde "Espaço insuficiente"/"sem espaço no inventário". Antes de receber/comprar, abrir a bolsa e clicar a seta (298,780) para a página 2. O monitor reabre a bolsa na página 1 nos ciclos dele; não dá para fixar.
+- Para liberar slots de verdade: vender os anéis/colares da página 1 no NPC em Ricarten (junto da ida de reposição de poções; consumo real ~1 poção/min, limite de 100 chega ~23:00 BRT de 13/11).
+- Quando a bolsa cobre o botão COMPRAR da loja, arrastar a janela da loja para cima (título de 500,125 até 500,45). Clique sintético por JavaScript NÃO funciona no jogo; só clique de mouse real.
+- Eventos: Mais > Eventos mostra tarefas diárias/semanais/Corrida de Nível; o Calendário só mostra horários (Bellatra, Boss Time). Corrida de Nível já recebida até o nível 40+ (6/7), próxima exige nível maior.
+- Ranking: geral sobe ~4 posições por 10% de XP (13/11: 2201º às 17:18, 2181º às 19:38, 2177º às 20:19); o topo está todo no nível 87, então só o nível 78 dá salto grande.
+- Black Friday: a de Tempo é diária (ver seção acima); a de Boss Point também é 1 por dia e só com "sim" dela.
