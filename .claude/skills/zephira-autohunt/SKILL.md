@@ -144,3 +144,7 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - Receber 1 por vez: Distribuidor, RECEBER, diminuir a quantidade (− em 696,541) até 1, RECEBER (815,596). A Auto-caça usa o Terry sozinha ("Usando Terry(8H)"); não precisa clicar no item. Restam 4 no Distribuidor para as próximas 8 h cada (recebê-los só quando o anterior acabar).
 - Loja de Tempo: F9 > Tempo (640,92); o card do Terry fica no fim da lista: `scrollIntoView` no texto "Terry (8 Horas)" (a janela sobe ~18 px; COMPRAR em 603,228); "+" 592,401; COMPRAR 640,433; CONFIRMAR 718,448; Yes 690,376; Distribuidor 839,123.
 - EXPup 30%: ela já tinha ativado por conta própria (14/11 16:25).
+
+## Relatório: sempre citar o DPS (ordem da usuária, 14/11 17:00)
+- Em TODO relatório, citar o **DPS**: (1) o DPS do Haradur no painel da Auto-caça ("DPS N (30 s) · M média") e (2) o DPS do grupo na janela "DPS do grupo" (canto superior direito: dps e % de cada um, ex.: Cruel 1.375 dps 36,6 % | Haradur 899 dps 17 %). Dizer também se o DPS do Haradur está em 0 (Auto-caça sem atacar).
+- "Novidades & Suporte" (botão no topo direito, ~1010,24): abre um painel de notícias/tickets; fechar com o X (865,133). Um clique abre e outro fecha: conferir a tela antes de clicar de novo.
