@@ -87,3 +87,9 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - Só a versão de Tempo (300 Tempo). A de Boss Point continua dependendo de "sim" dela.
 - Como fazer sem erro: pausar o monitor (pkill -f 'node monitor.js'), abrir a bolsa e deixar na PÁGINA 2 (a página 1 está cheia e a loja recusa com "sem espaço no inventário"), abrir F9 > Tempo > Premium, ARRASTAR a janela da loja para cima (título de 500,125 até 500,45) porque a bolsa cobre o botão COMPRAR da última carta; clicar COMPRAR (603,575 depois do arrasto), conferir o diálogo (qtd 1, 300) e CONFIRMAR (640,460 e 718,466), fechar o aviso (Yes), fechar a loja (971,44), passar o mouse no frasco na bolsa e ativar com clique direito. Relançar o monitor.
 - Antes de comprar, conferir o saldo de Tempo (reserva para Terry 700 e pergaminhos 10 cada; hoje 4.720).
+
+## Terry (3 Horas) das Tarefas do Dia - resgatar todo dia (ordem da usuária, 14/11)
+- Ordem: "resgate o Terry também todo dia". Mais > Eventos (menu "Mais" em 1056,60; "Eventos" em ~1030,276) > aba "Tarefas do Dia" (640,172) > carta "Caçada rápida" (derrotar 1000 monstros; paga Terry 3 Horas) > RECEBER (~913,280). Reinicia todo dia às 00:00 BRT/UTC-3 (o painel mostra "Reinicia em ...").
+- O prêmio vai para o Distribuidor se a bolsa estiver cheia ("Recompensa recebida! Parte dos itens foi para o Distribuidor"). Não ativar por cima da Terry de 8 h que já está ativa (não sei se soma ou se perde); ativar quando a de 8 h acabar, ou comparar antes. Terry 8 h comprada às ~17:00 BRT de 13/11 vale até ~01:00 BRT de 14/11.
+- Aproveitar a mesma abertura para conferir as outras tarefas do dia e semanais (Caçador de chefes, Coletor, Terror dos chefes, Coragem na Bellatra) e receber o que estiver pronto, sem gastar Tempo.
+- Fazer com o monitor parado e fechar a janela (971,125) depois; religar o monitor.
