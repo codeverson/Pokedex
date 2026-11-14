@@ -122,3 +122,8 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - Lista de grupos de TM2: `node run.js "return await require('./gvaga.js')(p,'Templo Maldito 2')"`. Entrar: `joinname_tm2.js` (cópia de joinname.js com filtro 'Templo Maldito 2').
 - Sequência usada em 14/11: Core (findcore.js 'Core para Navisko', clique direito) → cidade → Sair do grupo → joinname_tm2 → Ir ao líder → Auto-caça (996,60) → PK → monitor. Trocar de servidor (Hermes→Atlas) funciona sem perder o personagem.
 - Sempre que o XP/h de TM1 ficar <3 mi/h, olhar TM2 primeiro.
+
+## Set de armas: tecla W (ordem da usuária, 14/11)
+- A tecla **W** alterna o set de armas. O personagem estava batendo com a **Garra** (set errado, painel de equipamento mostrando outra arma); a usuária mandou apertar W e voltou o set do **Machado** (equipamento: Machado / armadura roxa / Machado).
+- Depois de login, reconexão ou troca de servidor, conferir no painel de equipamento (bolsa aberta) qual set está ativo; se aparecer a Garra, apertar W (sem digitar no chat: tirar o foco antes) e conferir de novo.
+- Isso não é "trocar de arma por conta própria": é só voltar ao set que ela já usava.
