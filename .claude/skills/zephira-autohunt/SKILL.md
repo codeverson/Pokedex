@@ -127,3 +127,9 @@ Quando aparecer o ícone amarelo "!" (Nova versão do jogo disponível, canto su
 - A tecla **W** alterna o set de armas. O personagem estava batendo com a **Garra** (set errado, painel de equipamento mostrando outra arma); a usuária mandou apertar W e voltou o set do **Machado** (equipamento: Machado / armadura roxa / Machado).
 - Depois de login, reconexão ou troca de servidor, conferir no painel de equipamento (bolsa aberta) qual set está ativo; se aparecer a Garra, apertar W (sem digitar no chat: tirar o foco antes) e conferir de novo.
 - Isso não é "trocar de arma por conta própria": é só voltar ao set que ela já usava.
+
+## Pontos de status (ordem da usuária, 14/11 14:30)
+- A usuária mandou **colocar os pontos de status em Força**. Feito no nível 78: 5 pontos (Força 271 → 276; Dano 328-436 → 330-438; HP 758 → 762). Tela do personagem: tecla **C**; o "+" amarelo ao lado de Força (813,640) soma 1 ponto por clique; "Desfazer" aparece depois. Fechar com C (sem foco no chat).
+- A partir de agora, pontos de status de novos níveis também vão em **Força** (ordem dela); relatar quantos foram.
+- O **ponto de habilidade (1)** continua guardado: não foi autorizado.
+- EXP do personagem (tela C): `EXP atual / Próximo nível` em milhões. Nível 78: de 1.677M até 1.897M → faltam ~220 mi para o 79 (custo real medido na tela).
